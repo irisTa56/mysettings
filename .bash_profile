@@ -8,6 +8,6 @@ export PS1="\[\e[30;43m\][\u@\h:\W]\[\e[00m\] \$ "
 
 eval $(dircolors -b $HOME/.dircolors)
 
-eval $($(brew --prefix)/bin/brew shellenv)
+eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
 
 source $(brew --prefix asdf)/asdf.sh
