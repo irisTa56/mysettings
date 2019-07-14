@@ -5,3 +5,9 @@ export LANG=C
 # font-color: black 30, white 37
 # bg-color: red 41, green 42, yellow 43, blue 44, magenta 45, cyan 46
 export PS1="\[\e[30;43m\][\u@\h:\W]\[\e[00m\] \$ "
+
+eval $(dircolors -b $HOME/.dircolors)
+
+eval $($(brew --prefix)/bin/brew shellenv)
+
+source $(brew --prefix asdf)/asdf.sh
