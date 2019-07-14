@@ -10,4 +10,7 @@ eval $(dircolors -b $HOME/.dircolors)
 
 eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
 
+# asdf & conda
+tmp_path=$PATH
 source $(brew --prefix asdf)/asdf.sh
+export PATH=${PATH%$tmp_path}$(conda info --envs | grep "*" | grep -o -e "/.*")/bin:$tmp_path
