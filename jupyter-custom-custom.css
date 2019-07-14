@@ -1,0 +1,6 @@
+.CodeMirror pre, .output pre {
+    font-family: Monaco, monospace;
+}
+.toolbar-btn-label {
+    display: none;
+}
