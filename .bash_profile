@@ -1,3 +1,4 @@
+
 export LANG=C
 
 # Prompt color
