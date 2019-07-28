@@ -360,7 +360,7 @@ c.NotebookApp.browser = '/Applications/Google\ Chrome.app/Contents/MacOS/Google\
 #   - 0 opens in an existing window.
 #  
 #  See the `webbrowser.open` documentation for details.
-c.NotebookApp.webbrowser_open_new = 1
+#c.NotebookApp.webbrowser_open_new = 2
 
 ## Set the tornado compression options for websocket connections.
 #  
