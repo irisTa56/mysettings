@@ -1,4 +1,4 @@
-.CodeMirror pre, .output pre {
+.CodeMirror pre, .output pre, .cm-s-ipython {
     font-family: Monaco, monospace;
 }
 .toolbar-btn-label {
