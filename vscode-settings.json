@@ -57,5 +57,6 @@
     "python.linting.pylintPath": "/Users/takayuki/.asdf/shims/pylint",
     "C_Cpp.updateChannel": "Insiders",
     "C_Cpp.intelliSenseCachePath": "~/.vscode",
-    "markdown-preview-enhanced.scrollSync": true
+    "markdown-preview-enhanced.scrollSync": true,
+    "files.insertFinalNewline": true
 }
