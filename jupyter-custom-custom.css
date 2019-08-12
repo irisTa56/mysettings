@@ -4,3 +4,6 @@
 .toolbar-btn-label {
     display: none;
 }
+.text_cell_render p {
+    white-space: pre-wrap;
+}
