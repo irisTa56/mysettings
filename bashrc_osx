@@ -1,0 +1,15 @@
+# ~/.bashrc
+
+alias ls='ls --color=auto --show-control-char'
+
+# Vagrant
+
+export VAGRANT_ID=c2efcf8
+
+alias vag-on="vagrant up $VAGRANT_ID"
+alias vag-off="vagrant halt $VAGRANT_ID"
+alias vag-ssh="vagrant ssh $VAGRANT_ID"
+
+function vag-fwd() {
+  vagrant ssh $VAGRANT_ID -- -L $1:localhost:$1
+}
