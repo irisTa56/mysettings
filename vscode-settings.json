@@ -3,7 +3,8 @@
     "editor.renderControlCharacters": true,
     "editor.rulers": [
         72,
-        80
+        80,
+        120
     ],
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
@@ -36,27 +37,19 @@
         ]
     ],
     "window.restoreFullscreen": true,
-    "workbench.iconTheme": "vscode-icons",
+    "workbench.iconTheme": "material-icon-theme",
     "workbench.list.openMode": "doubleClick",
     "workbench.colorTheme": "One Dark Pro Vivid",
     "workbench.colorCustomizations" : {
         "terminal.background" : "#000000"
     },
-    "spellright.configurationScope": "user",
-    "spellright.language": [
-        "en"
-    ],
-    "spellright.documentTypes": [
-        "latex",
-        "markdown"
-    ],
     "explorer.confirmDragAndDrop": false,
     "extensions.autoUpdate": true,
     "javascript.updateImportsOnFileMove.enabled": "always",
     "python.pythonPath": "/Users/takayuki/.asdf/shims/python",
-    "python.linting.pylintPath": "/Users/takayuki/.asdf/shims/pylint",
-    "C_Cpp.updateChannel": "Insiders",
-    "C_Cpp.intelliSenseCachePath": "~/.vscode",
     "markdown-preview-enhanced.scrollSync": true,
-    "files.insertFinalNewline": true
+    "workbench.startupEditor": "newUntitledFile",
+    "markdown2textile.pythonPathToUsePandoc": "/Users/takayuki/.asdf/shims/python",
+    "files.insertFinalNewline": true,
+    "terminal.integrated.rendererType": "dom"
 }
