@@ -1,0 +1,22 @@
+# ~/.bash_profile
+
+export BASH_SILENCE_DEPRECATION_WARNING=1
+
+PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+PATH="/usr/local/opt/findutils/libexec/gnubin:$PATH"
+PATH="/usr/local/opt/gnu-sed/libexec/gnubin:$PATH"
+PATH="/usr/local/opt/gnu-tar/libexec/gnubin:$PATH"
+PATH="/usr/local/opt/grep/libexec/gnubin:$PATH"
+
+export LANG=ja_JP.UTF-8
+export PATH="/usr/local/sbin:$PATH"
+export PS1="\[\e[30;47m\][\u@mac:\W]\[\e[00m\] \$ "
+
+test -r ~/.bashrc && . ~/.bashrc
+
+tmp_path=$PATH
+source $(brew --prefix asdf)/asdf.sh
+export PATH=${PATH%$tmp_path}:$(asdf where rust)/bin:$(asdf where python)/bin:$tmp_path
+
+eval "$(dircolors -b $HOME/.dircolors)"
+eval "$(direnv hook bash)"
