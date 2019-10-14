@@ -13,3 +13,10 @@ alias vag-ssh="vagrant ssh $VAGRANT_ID"
 function vag-fwd() {
   vagrant ssh $VAGRANT_ID -- -L $1:localhost:$1
 }
+
+# ASDF
+
+npm-ig() {
+  ASDF_SKIP_RESHIM=1 npm -g i $1
+  asdf reshim nodejs
+}
