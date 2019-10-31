@@ -16,7 +16,7 @@ function vag-fwd() {
 
 # ASDF
 
-npm-ig() {
+function npm-ig() {
   ASDF_SKIP_RESHIM=1 npm -g i $@
   asdf reshim nodejs
 }
