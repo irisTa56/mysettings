@@ -16,7 +16,7 @@ test -r ~/.bashrc && . ~/.bashrc
 
 tmp_path=$PATH
 source $(brew --prefix asdf)/asdf.sh
-export PATH=${PATH%$tmp_path}:$(asdf where rust)/bin:$(asdf where python)/bin:$tmp_path
+export PATH=$(asdf where java)/bin:$(asdf where rust)/bin:$(asdf where python)/bin:$tmp_path
 
 eval "$(dircolors -b $HOME/.dircolors)"
 eval "$(direnv hook bash)"
