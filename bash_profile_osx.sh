@@ -14,9 +14,8 @@ export PS1="\[\e[30;47m\][\u@mac:\W]\[\e[00m\] \$ "
 
 test -r ~/.bashrc && . ~/.bashrc
 
-tmp_path=$PATH
 source $(brew --prefix asdf)/asdf.sh
-export PATH=$(asdf where java)/bin:$(asdf where rust)/bin:$(asdf where python)/bin:$tmp_path
+export PATH=$(asdf where java)/bin:$(asdf where rust)/bin:$(asdf where python)/bin:$PATH
 
 eval "$(dircolors -b $HOME/.dircolors)"
 eval "$(direnv hook bash)"
