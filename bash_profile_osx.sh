@@ -8,7 +8,7 @@ PATH="/usr/local/opt/gnu-sed/libexec/gnubin:$PATH"
 PATH="/usr/local/opt/gnu-tar/libexec/gnubin:$PATH"
 PATH="/usr/local/opt/grep/libexec/gnubin:$PATH"
 
-export LANG=ja_JP.UTF-8
+export LC_CTYPE=ja_JP.UTF-8
 export PATH="/usr/local/sbin:$PATH"
 export PS1="\[\e[30;47m\][\u@mac:\W]\[\e[00m\] \$ "
 
