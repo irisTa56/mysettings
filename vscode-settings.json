@@ -1,13 +1,45 @@
 {
-    "editor.tabSize": 2,
+    "cSpell.userWords": [
+        "Ansible",
+        "Antikythera",
+        "Antipattern",
+        "Antipatterns",
+        "Backdoors",
+        "Cerigo",
+        "Ciphertext",
+        "Cybercrime",
+        "Deauthentication",
+        "Kerberos",
+        "Multicolumn",
+        "Pseudokey",
+        "Stateful",
+        "Stealthing",
+        "buildability",
+        "ciphertexts",
+        "interactors",
+        "interprocess",
+        "metaprogramming",
+        "preimage",
+        "pseudokeys",
+        "struct",
+        "submodule",
+        "subnet",
+        "syscall",
+        "untrusted"
+    ],
     "editor.renderControlCharacters": true,
     "editor.rulers": [
         72,
         80,
         120
     ],
+    "editor.tabSize": 2,
+    "explorer.confirmDragAndDrop": false,
+    "extensions.autoUpdate": true,
+    "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
     "markdown-preview-enhanced.mathBlockDelimiters": [
         [
             "```math",
@@ -36,20 +68,18 @@
             "\\)"
         ]
     ],
+    "markdown-preview-enhanced.mermaidTheme": "forest",
+    "markdown-preview-enhanced.scrollSync": true,
+    "markdown2textile.pythonPathToUsePandoc": "/usr/local/bin/python3",
+    "oneDarkPro.vivid": true,
+    "python.pythonPath": "/usr/local/bin/python3",
+    "terminal.integrated.rendererType": "dom",
     "window.restoreFullscreen": true,
+    "workbench.colorCustomizations": {
+        "terminal.background": "#000000"
+    },
+    "workbench.colorTheme": "One Dark Pro",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.list.openMode": "doubleClick",
-    "workbench.colorTheme": "One Dark Pro Vivid",
-    "workbench.colorCustomizations" : {
-        "terminal.background" : "#000000"
-    },
-    "explorer.confirmDragAndDrop": false,
-    "extensions.autoUpdate": true,
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "python.pythonPath": "/Users/takayuki/.asdf/shims/python",
-    "markdown-preview-enhanced.scrollSync": true,
-    "workbench.startupEditor": "newUntitledFile",
-    "markdown2textile.pythonPathToUsePandoc": "/Users/takayuki/.asdf/shims/python",
-    "files.insertFinalNewline": true,
-    "terminal.integrated.rendererType": "dom"
+    "workbench.startupEditor": "newUntitledFile"
 }
