@@ -5,6 +5,7 @@ on:
     branches:
     - master
     paths:
+    - .github/workflows/publish_docker_jupyter-lab.yml 
     - docker/jupyter-lab/**
 
 jobs:
