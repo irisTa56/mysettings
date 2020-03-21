@@ -1,0 +1,22 @@
+name: Publish Docker Image for Jupyter Lab
+
+on:
+  push:
+    branches:
+    - master
+    paths:
+    - docker/jupyter-lab/**
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: Publish Docker
+      uses: elgohr/Publish-Docker-Github-Action@master
+      with:
+        name: irista56/jupyter-lab
+        dockerfile: docker/jupyter-lab/Dockerfile
+        username: ${{ secrets.DOCKER_USERNAME }}
+        password: ${{ secrets.DOCKER_PASSWORD }}
+        workdir: docker/jupyter-lab
