@@ -1,8 +1,4 @@
-# ~/.bashrc
-
 alias ls='ls --color=auto --show-control-char'
-
-# ASDF
 
 function npm-g-i() {
   ASDF_SKIP_RESHIM=1 npm -g i $@
