@@ -15,6 +15,7 @@ RUN jupyter labextension install @jupyterlab/toc
 RUN conda install --quiet --yes \
   coverage \
   flask \
+  flask-httpauth \
   flask-sqlalchemy \
   pillow \
   pytest \
