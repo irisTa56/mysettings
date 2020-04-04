@@ -23,4 +23,6 @@ RUN conda install --quiet --yes \
 
 COPY files/docker_cmd.sh /usr/local/bin/
 
+WORKDIR /mnt/volume
+
 CMD ["docker_cmd.sh"]

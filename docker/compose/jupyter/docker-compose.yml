@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  jupyter:
+    image: ${JUPYTER_IMAGE:-irista56/jupyter-lab}
+    container_name: jupyter
+    ports:
+      - 8888:8888
+    volumes:
+      - ${JUPYTER_HOST_DIR:-.}:/mnt/volume
