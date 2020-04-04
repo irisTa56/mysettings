@@ -1,0 +1,8 @@
+version: '3'
+services:
+  jupyter:
+    image: ${DOCKER_JUPYTER_IMAGE}
+    ports:
+    - 8888:8888
+    volumes:
+    - ${DOCKER_JUPYTER_HOST_DIR}:/mnt/volume

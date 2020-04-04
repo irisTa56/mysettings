@@ -5,8 +5,8 @@ on:
     branches:
     - master
     paths:
-    - .github/workflows/publish_docker_jupyter-lab.yml 
-    - docker/jupyter-lab/**
+    - .github/workflows/publish_docker_jupyter-lab.yml
+    - docker/image/jupyter-lab/**
 
 jobs:
   build:
@@ -17,7 +17,7 @@ jobs:
       uses: elgohr/Publish-Docker-Github-Action@master
       with:
         name: irista56/jupyter-lab
-        dockerfile: docker/jupyter-lab/Dockerfile
+        dockerfile: docker/image/jupyter-lab/Dockerfile
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
-        context: docker/jupyter-lab
+        context: docker/image/jupyter-lab
