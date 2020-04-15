@@ -1,9 +1,0 @@
-.CodeMirror pre, .output pre, .cm-s-ipython {
-    font-family: Monaco, monospace;
-}
-.toolbar-btn-label {
-    display: none;
-}
-.text_cell_render p {
-    white-space: pre-wrap;
-}

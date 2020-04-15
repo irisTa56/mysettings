@@ -1,4 +1,6 @@
 {
+    "cSpell.allowCompoundWords": true,
+    "cSpell.maxDuplicateProblems": 2,
     "cSpell.userWords": [
         "Ansible",
         "Antikythera",
@@ -18,6 +20,7 @@
         "ciphertexts",
         "interactors",
         "interprocess",
+        "jupyter",
         "metaprogramming",
         "preimage",
         "pseudokeys",
@@ -36,6 +39,15 @@
     "editor.tabSize": 2,
     "explorer.confirmDragAndDrop": false,
     "extensions.autoUpdate": true,
+    "files.associations": {
+        "*.jupyterlab-settings": "json5"
+    },
+    "files.exclude": {
+        "**/.coverage": true,
+        "**/.ipynb_checkpoints/": true,
+        "**/.pytest_cache/": true,
+        "**/__pycache__/": true
+    },
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
@@ -75,6 +87,7 @@
     "python.pythonPath": "/usr/local/bin/python3",
     "terminal.integrated.rendererType": "dom",
     "window.restoreFullscreen": true,
+    "window.zoomLevel": 0,
     "workbench.colorCustomizations": {
         "terminal.background": "#000000"
     },
