@@ -24,6 +24,8 @@ fi
 
 test -x /usr/local/bin/python3 \
   && ln -sf /usr/local/bin/python3 /usr/local/bin/python
+test -x /usr/local/bin/pip3 \
+  && ln -sf /usr/local/bin/pip3 /usr/local/bin/pip
 
 eval "$(dircolors -b "$HOME"/.dircolors)"
 eval "$(direnv hook "$SHELL")"
