@@ -19,7 +19,7 @@ if [ "$SHELL" = "/bin/bash" ]; then
   export PS1="\[\e[30;47m\][\u@mac:\W]\[\e[00m\] \$ "
   test -r ~/.bashrc && source ~/.bashrc
 else
-  export PROMPT="%K{7}%F{0}[%n@mac:%~]%f%k \$ "
+  export PROMPT="%K{7}%F{0}[%n@mac:%C]%f%k \$ "
 fi
 
 test -x /usr/local/bin/python3 \
