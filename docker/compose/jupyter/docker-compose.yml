@@ -4,6 +4,9 @@ services:
   jupyter:
     image: ${JUPYTER_IMAGE:-irista56/jupyter-lab}
     container_name: jupyter
+    environment:
+      - AWS_ACCESS_KEY_ID
+      - AWS_SECRET_ACCESS_KEY
     ports:
       - 8888:8888
     volumes:
