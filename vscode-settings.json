@@ -83,8 +83,6 @@
     "markdown-preview-enhanced.mermaidTheme": "forest",
     "markdown-preview-enhanced.scrollSync": true,
     "markdown2textile.pythonPathToUsePandoc": "/usr/local/bin/python3",
-    "oneDarkPro.vivid": true,
-    "python.pythonPath": "/usr/local/bin/python3",
     "terminal.integrated.rendererType": "dom",
     "window.restoreFullscreen": true,
     "window.zoomLevel": 0,
