@@ -1,0 +1,23 @@
+name: Publish Docker Image for Erlang/Elixir environment whose version is compatible with Antikythera Framework
+
+on:
+  push:
+    branches:
+    - master
+    paths:
+    - .github/workflows/publish_docker_antikythera-elixir.yml
+    - docker/image/antikythera-elixir/**
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: Publish Docker
+      uses: elgohr/Publish-Docker-Github-Action@master
+      with:
+        name: irista56/antikythera-elixir
+        dockerfile: docker/image/antikythera-elixir/Dockerfile
+        username: ${{ secrets.DOCKER_USERNAME }}
+        password: ${{ secrets.DOCKER_PASSWORD }}
+        context: docker/image/antikythera-elixir
