@@ -15,6 +15,7 @@ RUN apt-get update && apt-get install -y \
   autoconf \
   curl \
   git \
+  inotify-tools \
   locales \
   unzip \
   libexpat-dev \
