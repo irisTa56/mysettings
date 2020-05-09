@@ -1,0 +1,17 @@
+asdf
+awscli
+direnv
+findutils
+gawk
+gnu-sed
+gnu-tar
+gnupg
+graphviz
+grep
+jenkins
+jq
+pandoc
+shellcheck
+tree
+wget
+wxmac

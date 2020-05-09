@@ -1,0 +1,10 @@
+elasticsearch 2.4.6
+elixir 1.9.4
+erlang ref:maint
+java amazon-corretto-8.242.08.1
+mongodb 4.0.12
+nodejs 10.19.0
+postgres 11.7
+rust 1.37.0
+sbt 1.2.8
+scala 2.12.8

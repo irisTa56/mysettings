@@ -1,0 +1,7 @@
+avira-antivirus
+clipy
+docker
+google-chrome
+karabiner-elements
+visual-studio-code
+zotero

@@ -17,6 +17,12 @@ function npm-g-up() {
   asdf reshim nodejs
 }
 
+function docker-pull-mine() {
+  docker images --format '{{.Repository}}' \
+  | grep -e '^irista56/' \
+  | xargs -L 1 docker pull
+}
+
 function docker-run-with-gear() {
   gear_dir=$1
   ssh_auth_sock="/run/host-services/ssh-auth.sock"
