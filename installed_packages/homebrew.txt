@@ -6,11 +6,11 @@ gawk
 gnu-sed
 gnu-tar
 gnupg
-graphviz
 grep
 jenkins
 jq
 pandoc
+plantuml
 shellcheck
 tree
 wget

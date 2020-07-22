@@ -5,6 +5,7 @@ fcrespo82.markdown-table-formatter
 irisTa56.elixir-tiny-ls
 irisTa56.markdown2textile
 JakeBecker.elixir-ls
+jebbs.plantuml
 kohkimakimoto.vscode-mac-dictionary
 mechatroner.rainbow-csv
 mrmlnc.vscode-duplicate
@@ -15,5 +16,6 @@ rust-lang.rust
 scala-lang.scala
 shd101wyy.markdown-preview-enhanced
 streetsidesoftware.code-spell-checker
+techer.open-in-browser
 yzhang.markdown-all-in-one
 zhuangtongfa.material-theme

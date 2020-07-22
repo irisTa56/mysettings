@@ -1,10 +1,10 @@
-elasticsearch 2.4.6
+erlang 20.3.8.25
 elixir 1.9.4
-erlang ref:maint
-java amazon-corretto-8.242.08.1
-mongodb 4.0.12
+ruby 2.4.4
 nodejs 10.19.0
-postgres 11.7
-rust 1.37.0
+scala 2.13.0
 sbt 1.2.8
-scala 2.12.8
+python miniconda3-latest
+java amazon-corretto-8.242.08.1
+rust 1.37.0
+terraform 0.12.9
