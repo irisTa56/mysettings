@@ -1,5 +1,12 @@
 {
     "cSpell.allowCompoundWords": true,
+    "cSpell.enableFiletypes": [
+        "markdown"
+    ],
+    "cSpell.enabled": false,
+    "cSpell.enabledLanguageIds": [
+        "elixir"
+    ],
     "cSpell.maxDuplicateProblems": 2,
     "cSpell.userWords": [
         "Ansible",
@@ -9,25 +16,40 @@
         "Backdoors",
         "Cerigo",
         "Ciphertext",
+        "Croma",
         "Cybercrime",
         "Deauthentication",
+        "Epub",
         "Kerberos",
         "Multicolumn",
+        "OEBPS",
+        "Postgres",
         "Pseudokey",
         "Stateful",
         "Stealthing",
+        "antikythera's",
         "buildability",
         "ciphertexts",
+        "defun",
+        "defunp",
+        "defunpt",
         "interactors",
         "interprocess",
+        "jdcn",
         "jupyter",
+        "meck",
         "metaprogramming",
+        "mkdir",
+        "noretry",
         "preimage",
         "pseudokeys",
         "struct",
         "submodule",
         "subnet",
         "syscall",
+        "tmpdir",
+        "typep",
+        "unencrypted",
         "untrusted"
     ],
     "editor.renderControlCharacters": true,
@@ -37,6 +59,7 @@
         120
     ],
     "editor.tabSize": 2,
+    "elixirLS.suggestSpecs": false,
     "explorer.confirmDragAndDrop": false,
     "extensions.autoUpdate": true,
     "files.associations": {
@@ -61,10 +84,6 @@
         [
             "$$",
             "$$"
-        ],
-        [
-            "\\[",
-            "\\]"
         ]
     ],
     "markdown-preview-enhanced.mathInlineDelimiters": [
@@ -75,15 +94,11 @@
         [
             "$",
             "$"
-        ],
-        [
-            "\\(",
-            "\\)"
         ]
     ],
     "markdown-preview-enhanced.mermaidTheme": "forest",
     "markdown-preview-enhanced.scrollSync": true,
-    "markdown2textile.pythonPathToUsePandoc": "/usr/local/bin/python3",
+    "markdown2textile.pythonPathToUsePandoc": "/Users/Takayuki.Kobayashi/.asdf/shims/python",
     "terminal.integrated.rendererType": "dom",
     "window.restoreFullscreen": true,
     "window.zoomLevel": 0,
@@ -93,6 +108,5 @@
     "workbench.colorTheme": "One Dark Pro",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.list.openMode": "doubleClick",
-    "workbench.startupEditor": "newUntitledFile",
-    "elixirLS.suggestSpecs": false
+    "workbench.startupEditor": "newUntitledFile"
 }
